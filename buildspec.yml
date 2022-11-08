@@ -26,4 +26,4 @@ build:
     - docker
 post_build:
     commands:
-      docker push aravind0904/myfirstrepo:myimage1
+      docker push 211486641929.dkr.ecr.us-east-1.amazonaws.com/testrepo:myimage1
