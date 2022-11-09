@@ -24,6 +24,3 @@ build:
       - image.tar
   tags:
     - docker
-post_build:
-    commands:
-      docker push 211486641929.dkr.ecr.us-east-1.amazonaws.com/testrepo:myimage1
