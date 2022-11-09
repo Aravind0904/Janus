@@ -1,12 +1,10 @@
 version: 0.2
 stages:
   - build
-  - publish
-
+  
 before_script:
   - export BRANCH_NAME=${BRANCH_NAME:-master}
   
-
 build:
   image: docker
   stage: build
